@@ -16,4 +16,6 @@ userRoute.get('/me',isAuth,(req,res)=>{
     res.send(req.user)
 })
 
+//-******************************* " "3andek partie uodate profil n9ssa w ziden image profil 
+
 module.exports=userRoute
