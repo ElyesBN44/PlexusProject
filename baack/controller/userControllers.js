@@ -36,3 +36,13 @@ exports.login=async(req,res)=>{
 console.log(err)
     }
 }
+
+
+exports.GetContact=async(req,res)=>{
+    try{
+    const Contacts = await userSchema.find()
+    res.status(200).send({Contacts,msg:'list of ocntact'})
+    }catch{
+    res.status(500).send('could not get contacts')
+    }
+    }

@@ -1,6 +1,6 @@
 const express = require('express')
 const userRoute= express.Router()
-const { register,login } = require('../controller/userControllers')
+const { register,login, GetContact } = require('../controller/userControllers')
 const { isAuth } = require('../middelwares/isAuth')
 const { registerValidation,loginValidation,validation } = require('../middelwares/RegisterValidatio')
 
@@ -16,6 +16,15 @@ userRoute.get('/me',isAuth,(req,res)=>{
     res.send(req.user)
 })
 
-//-******************************* " "3andek partie uodate profil n9ssa w ziden image profil 
+
+//http://localhost:4000/user/updatecompte
+userRoute.put('/upcompte/:id',isAuth,(req,res)=>{
+    res.send(req.user)
+})
+
+//http://localhost:4000/user/updatecompte
+userRoute.get('/admin_allusers',GetContact)
+
+
 
 module.exports=userRoute

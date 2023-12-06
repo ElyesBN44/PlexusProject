@@ -1,0 +1,137 @@
+.contact {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .contact .overlap-group-wrapper {
+    background-color: var(--black-whitewhite);
+    height: 512px;
+    width: 1440px;
+  }
+  
+  .contact .overlap-group {
+    height: 416px;
+    position: relative;
+  }
+  
+  .contact .rectangle {
+    height: 256px;
+    left: 0;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    width: 1440px;
+  }
+  
+  .contact .div {
+    background-color: var(--black-whitewhite);
+    border-radius: 16px;
+    box-shadow: var(--drop-shadow-high);
+    height: 320px;
+    left: 252px;
+    position: absolute;
+    top: 96px;
+    width: 936px;
+  }
+  
+  .contact .text-wrapper {
+    color: var(--grayscale-900);
+    font-family: var(--heading-6-font-family);
+    font-size: var(--heading-6-font-size);
+    font-style: var(--heading-6-font-style);
+    font-weight: var(--heading-6-font-weight);
+    left: 924px;
+    letter-spacing: var(--heading-6-letter-spacing);
+    line-height: var(--heading-6-line-height);
+    position: absolute;
+    top: 175px;
+    white-space: nowrap;
+  }
+  
+  .contact .element-thornridge-cir {
+    color: var(--grayscale-900-opacity56);
+    font-family: var(--body-sm-font-family);
+    font-size: var(--body-sm-font-size);
+    font-style: var(--body-sm-font-style);
+    font-weight: var(--body-sm-font-weight);
+    left: 924px;
+    letter-spacing: var(--body-sm-letter-spacing);
+    line-height: var(--body-sm-line-height);
+    position: absolute;
+    top: 213px;
+  }
+  
+  .contact .element-preston-rd {
+    color: var(--grayscale-900-opacity56);
+    font-family: var(--body-sm-font-family);
+    font-size: var(--body-sm-font-size);
+    font-style: var(--body-sm-font-style);
+    font-weight: var(--body-sm-font-weight);
+    left: 924px;
+    letter-spacing: var(--body-sm-letter-spacing);
+    line-height: var(--body-sm-line-height);
+    position: absolute;
+    top: 295px;
+  }
+  
+  .contact .frame {
+    align-items: flex-start;
+    display: inline-flex;
+    flex-direction: column;
+    gap: 24px;
+    left: 300px;
+    position: absolute;
+    top: 144px;
+  }
+  
+  .contact .frame-2 {
+    align-items: flex-start;
+    display: inline-flex;
+    flex: 0 0 auto;
+    flex-direction: column;
+    gap: 8px;
+    position: relative;
+  }
+  
+  .contact .contact-us {
+    color: var(--indigo-500);
+    font-family: var(--overline-LG-font-family);
+    font-size: var(--overline-LG-font-size);
+    font-style: var(--overline-LG-font-style);
+    font-weight: var(--overline-LG-font-weight);
+    letter-spacing: var(--overline-LG-letter-spacing);
+    line-height: var(--overline-LG-line-height);
+    margin-top: -1px;
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
+  .contact .you-have-a-new {
+    color: var(--grayscale-900);
+    font-family: var(--heading-2-font-family);
+    font-size: var(--heading-2-font-size);
+    font-style: var(--heading-2-font-style);
+    font-weight: var(--heading-2-font-weight);
+    letter-spacing: var(--heading-2-letter-spacing);
+    line-height: var(--heading-2-line-height);
+    position: relative;
+    width: fit-content;
+  }
+  
+  .contact .text-wrapper-2 {
+    color: var(--grayscale-900-opacity-40);
+    font-family: var(--heading-2-font-family);
+    font-size: var(--heading-2-font-size);
+    font-style: var(--heading-2-font-style);
+    font-weight: var(--heading-2-font-weight);
+    letter-spacing: var(--heading-2-letter-spacing);
+    line-height: var(--heading-2-line-height);
+    position: relative;
+    white-space: nowrap;
+    width: fit-content;
+  }
+  
